@@ -1,0 +1,108 @@
+/* google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;;
+    
+}
+
+.header-img {
+    background: url(/src/img/upgraded-points-uu5Z7cx2PdA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 111px 0px 95px;
+}
+
+.li-main {
+    display: flex;
+    gap: 90px;
+    font-weight: 700;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.main-explore {
+   
+    max-width: 700px;
+    margin-left: 5em;
+    margin-top: 10vh;
+}
+
+.main-explore h1 {
+    font-size: 3.5em;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+
+.end-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 23em;
+   
+}
+
+
+.places-main {
+    display: flex;
+    background-color: rgb(5, 220, 240);
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 2px;
+    transition: transform .75s;
+
+}
+
+.places-main:hover {
+    transform: scale(1.15);
+}
+
+.places-main p {
+    margin-bottom: 6px;
+}
+
+.end-img {
+    background: url(/src/img/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg);
+    min-width: 200px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bnt-explore {
+    
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 120px;
+    background-color: rgb(5, 220, 240);
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.bnt-explore:hover {
+    background-color: rgba(243, 244, 244, 0.422);
+    transition: .5s;
+}
+
+
